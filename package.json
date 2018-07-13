@@ -1,0 +1,22 @@
+{
+  "name": "regcode",
+  "version": "1.0.0",
+  "description": "canvas 验证码",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyawei/regCode.git"
+  },
+  "keywords": [
+    "reg"
+  ],
+  "author": "wuyw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuyawei/regCode/issues"
+  },
+  "homepage": "https://github.com/wuyawei/regCode#readme"
+}
