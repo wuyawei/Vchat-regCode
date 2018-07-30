@@ -7,10 +7,12 @@
 <body>
 <canvas width="200" height="50" id="regcode"></canvas>
 </body>
-<script src="class.canvas.js"></script>
+<script src="index.js">
+</script>
 <script>
     let regcode = new Canvas(document.querySelector('#regcode'));
-    regcode.draw();
-    console.log(regcode.str);
+    regcode.draw((r) => {
+        console.log(r);
+    });
 </script>
 </html>

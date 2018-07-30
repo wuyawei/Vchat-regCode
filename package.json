@@ -1,22 +1,19 @@
 {
-  "name": "vChat-regcode",
+  "name": "vchat-regcode",
   "version": "0.0.1",
   "description": "canvas 验证码",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wuyawei/regCode.git"
+    "url": "(https://github.com/wuyawei/vChat-regCode.git)"
   },
   "keywords": [
-    "reg"
+    "canvas",
+    "regcode"
   ],
   "author": "wuyw",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wuyawei/regCode/issues"
-  },
-  "homepage": "https://github.com/wuyawei/regCode#readme"
+  "license": "ISC"
 }
