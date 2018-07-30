@@ -79,7 +79,8 @@ class Canvas {
         let fontStyle = `${this.fontStyle}Text`;
         let colorStyle = `${this.fontStyle}Style`;
         for (let i = 0; i < this.len; i++) {
-            let x = this.getRand(this.canvas.width / this.len * i + 10, (this.canvas.width / this.len) * (i + 1) - 10);
+            let fw = this.paint.measureText(str[i]).width;
+            let x = this.getRand(this.canvas.width / this.len * i + fw/2, (this.canvas.width / this.len) * (i + 1) - fw-5);
             let deg = this.getRand(-6, 6);//字体的旋转角度
             this.paint[colorStyle] = `rgba(${this.getColor(this.foregroundColor)[0]}, ${this.getColor(this.foregroundColor)[1]}, ${this.getColor(this.foregroundColor)[2]}, 0.8)`;
             this.paint.save();

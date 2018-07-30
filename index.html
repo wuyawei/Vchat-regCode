@@ -5,12 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-<canvas width="200" height="50" id="regcode"></canvas>
+<canvas width="80" height="30" id="regcode"></canvas>
 </body>
 <script src="index.js">
 </script>
 <script>
-    let regcode = new Canvas(document.querySelector('#regcode'));
+    let regcode = new Canvas(document.querySelector('#regcode'),{
+        fontSize: 20,
+        lineNum: 2,
+        dotNum: 10
+    });
     regcode.draw((r) => {
         console.log(r);
     });
