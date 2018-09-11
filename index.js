@@ -108,5 +108,6 @@ class Canvas {
         this.draw(callback);
     }
 }
-
-module.exports = Canvas;
+if (module) {
+    module.exports = Canvas;
+}
