@@ -5,4 +5,5 @@
 | 参数 | 描述 | 类型 | 默认值 |
 | :-: | :-: | :-: | :-: | 
 | lineWidth | 线宽 | Number | 0.5 |
-| lineNum | 线的条数 | N
+| lineNum | 线的条数 | Number | 5 |
+| dotNum  | 点的数量 | Number | 20 |
