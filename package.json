@@ -1,6 +1,6 @@
 {
   "name": "vchat-regcode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "canvas 验证码",
   "main": "index.js",
   "scripts": {
