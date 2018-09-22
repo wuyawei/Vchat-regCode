@@ -15,7 +15,7 @@ class Canvas {
         this.len = config.len || 4; // 验证码长度
         this.callback = function () {};
         this.canvas.onclick = () => {
-            this.drawAgain(this.callback);
+            this.drawAgain();
         }
     }
 
@@ -103,11 +103,11 @@ class Canvas {
         this.paint.clearRect(0, 0, this.canvas.width, this.canvas.height);
     }
 
-    drawAgain(callback) {
+    drawAgain() {
         this.clear();
-        this.draw(callback);
+        this.draw(this.callback);
     }
 }
-if (module) {
+if (typeof module !== 'undefined' && !module.nodeType && module.exports) {
     module.exports = Canvas;
 }
