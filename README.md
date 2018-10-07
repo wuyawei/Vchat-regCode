@@ -7,3 +7,4 @@
 | lineWidth | 线宽 | Number | 0.5 |
 | lineNum | 线的条数 | Number | 5 |
 | dotNum  | 点的数量 | Number | 20 |
+| dotR  | 点的半径 | Number | 1 |
