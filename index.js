@@ -3,8 +3,8 @@ class Canvas {
         this.canvas = canvas;
         this.paint = this.canvas.getContext('2d');
         this.lineWidth = config.lineWidth || 0.5; // 线条宽度
-        this.lineNum = config.lineNum || 5; // 线条数量
-        this.dotNum = config.dotNum || 20; // 点的数量
+        this.lineNum = config.lineNum || 2; // 线条数量
+        this.dotNum = config.dotNum || 10; // 点的数量
         this.dotR = config.dotR || 1; // 点的半径
         this.foregroundColor = config.foregroundColor || [10, 80]; // 前景色区间
         this.backgroundColor = config.backgroundColor || [150, 250]; // 背景色区间

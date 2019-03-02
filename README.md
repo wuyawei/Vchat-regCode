@@ -27,8 +27,8 @@
 | 参数 | 描述 | 类型 | 默认值 |
 | :-: | :-: | :-: | :-: | 
 | lineWidth | 线宽 | Number | 0.5 |
-| lineNum | 线的条数 | Number | 5 |
-| dotNum  | 点的数量 | Number | 20 |
+| lineNum | 线的条数 | Number | 2 |
+| dotNum  | 点的数量 | Number | 10 |
 | dotR  | 点的半径 | Number | 1 |
 | foregroundColor  | 前景色区间 | Array | [10, 80] |
 | backgroundColor  | 背景色区间 | Array | [150, 250] |
