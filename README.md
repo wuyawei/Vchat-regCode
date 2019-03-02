@@ -35,7 +35,7 @@
 | fontSize  | 字体大小 | Number | 28 |
 | fontFamily  | 字体类型 | String | 'Georgia' |
 | content  | 验证码因子 | String | 'acdefhijkmnpwxyABCDEFGHJKMNPQWXY12345789' |
-| fontStyle | 字体绘制类型 | 'fill'/'stroke' (填充or无填充) |
+| fontStyle | 字体绘制类型 | String，支持'fill'/'stroke' (填充or无填充)| fill
 | len  | 验证码长度 | Number | 4 |
 
 > 颜色区间数组是指rgb颜色的强度值(0-255, 从暗—>亮)
